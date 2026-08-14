@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Baignades des Pyrénées centrales</title>
+  <meta name="description" content="Lieux personnels de baignade dans les Pyrénées centrales.">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Baignades des Pyrénées centrales</h1>
+    <div class="header-actions">
+      <p id="result-count" class="result-count" aria-live="polite"></p>
+      <button id="reset-filters" class="reset-button" type="button">Réinitialiser</button>
+    </div>
+  </header>
+
+  <section class="filters" aria-label="Filtres">
+    <div class="filter-group">
+      <div class="filter-heading"><label for="beaute">Beauté</label><strong id="beaute-value">1+</strong></div>
+      <input id="beaute" type="range" min="1" max="4" value="1" step="1">
+      <div class="range-ends"><span>ordinaire</span><span>magnifique</span></div>
+    </div>
+    <div class="filter-group">
+      <div class="filter-heading"><label for="fraicheur">Fraîcheur</label><strong id="fraicheur-value">1+</strong></div>
+      <input id="fraicheur" type="range" min="1" max="4" value="1" step="1">
+      <div class="range-ends"><span>exposé</span><span>très frais</span></div>
+    </div>
+    <div class="filter-group">
+      <div class="filter-heading"><label for="tranquillite">Tranquillité</label><strong id="tranquillite-value">1+</strong></div>
+      <input id="tranquillite" type="range" min="1" max="4" value="1" step="1">
+      <div class="range-ends"><span>fréquenté</span><span>désert</span></div>
+    </div>
+    <div class="filter-group">
+      <div class="filter-heading"><label for="baignabilite">Baignabilité</label><strong id="baignabilite-value">1+</strong></div>
+      <input id="baignabilite" type="range" min="1" max="4" value="1" step="1">
+      <div class="range-ends"><span>médiocre</span><span>excellente</span></div>
+    </div>
+    <div class="filter-group">
+      <div class="filter-heading"><label for="facilite_acces">Facilité d’accès</label><strong id="facilite_acces-value">1+</strong></div>
+      <input id="facilite_acces" type="range" min="1" max="4" value="1" step="1">
+      <div class="range-ends"><span>malcommode</span><span>immédiat</span></div>
+    </div>
+    <div class="filter-group">
+      <div class="filter-heading"><label for="compatibilite_enfants">Compatibilité avec enfants</label><strong id="compatibilite_enfants-value">1+</strong></div>
+      <input id="compatibilite_enfants" type="range" min="1" max="4" value="1" step="1">
+      <div class="range-ends"><span>déconseillé</span><span>très adapté</span></div>
+    </div>
+  </section>
+
+  <main class="split-layout">
+    <section class="map-column" aria-label="Carte des baignades"><div id="map"></div></section>
+    <aside id="detail-panel" class="detail-panel">
+      <div class="empty-state">
+        <h2>Choisissez un lieu sur la carte</h2>
+        <p>Cliquez sur un point pour afficher sa fiche. Chaque curseur fixe une note minimale.</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer>Fond cartographique © OpenStreetMap contributors · Carte interactive avec Leaflet.</footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
