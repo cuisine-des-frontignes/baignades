@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "name": "Prospective",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bord-de-pique-pres-de-lege",
+        "nom": "Bord de Pique près de Lège",
+        "commentaire": "Près de Lège, deux grottes indiquées, Pique un peu éloignée de la route."
+      },
+      "geometry": { "type": "Point", "coordinates": [0.611882, 42.881183] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "canyon-darlos",
+        "nom": "Canyon d’Arlos",
+        "commentaire": "Depuis Arlos, un sentier remonte un torrent raide qui forme un petit canyon, si je ne confonds pas."
+      },
+      "geometry": { "type": "Point", "coordinates": [0.710081, 42.881989] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "chemin-du-paradis",
+        "nom": "Chemin du Paradis",
+        "commentaire": "Lieu agréable près de Lez, joli chemin. Je ne me rappelle plus vraiment comment est le ruisseau."
+      },
+      "geometry": { "type": "Point", "coordinates": [0.704151, 42.910058] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ourse-de-ferrere",
+        "nom": "Ourse de Ferrère",
+        "commentaire": "Un peu avant le village, il y a une portion où le ruisseau s’éloigne de la route."
+      },
+      "geometry": { "type": "Point", "coordinates": [0.545037, 42.954747] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "maison-des-sources-et-environs",
+        "nom": "Maison des sources et environs",
+        "commentaire": "Accès à la rivière à la Maison des sources, mais il y a des horaires d’ouverture ; apparemment la rivière est libre d’accès. Le tronçon d’Ourse depuis le village de Mauléon semble prometteur."
+      },
+      "geometry": { "type": "Point", "coordinates": [0.571551, 42.964785] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "portion-dourse-pres-de-bramevaque",
+        "nom": "Portion d’Ourse près de Bramevaque",
+        "commentaire": "Un méandre de l’Ourse s’éloigne de la route pendant environ 500m."
+      },
+      "geometry": { "type": "Point", "coordinates": [0.578481, 42.98327] }
+    }
+  ]
+}
