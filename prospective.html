@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prospective · Baignades et promenades de rivières et de lacs</title>
+  <meta name="description" content="Lieux à prospecter pour de futures baignades et promenades de rivières et de lacs.">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css?v=20260814-3">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Baignades et promenades de rivières et de lacs</h1>
+    <nav class="page-nav" aria-label="Sections">
+      <a class="nav-button" href="index.html">Lieux connus</a>
+      <a class="nav-button active prospective-active" href="prospective.html" aria-current="page">Prospective</a>
+    </nav>
+    <div class="header-actions">
+      <p id="result-count" class="result-count" aria-live="polite"></p>
+    </div>
+  </header>
+
+  <main class="split-layout prospective-layout">
+    <section class="map-column" aria-label="Carte des lieux à prospecter"><div id="map"></div></section>
+    <aside id="detail-panel" class="detail-panel">
+      <div class="empty-state">
+        <h2>Choisissez un lieu à prospecter</h2>
+        <p>Cliquez sur un point pour afficher l’aide-mémoire associé.</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer>Fond cartographique © OpenStreetMap contributors · Carte interactive avec Leaflet.</footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="prospective.js?v=20260814-1"></script>
+</body>
+</html>
