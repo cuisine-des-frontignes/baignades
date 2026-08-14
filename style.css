@@ -7,17 +7,17 @@ html, body { margin: 0; min-height: 100%; color: var(--ink); background: var(--p
 body { min-height: 100vh; display: flex; flex-direction: column; }
 .site-header { min-height: 66px; padding: 12px 22px; display: flex; justify-content: space-between; align-items: center; gap: 20px; border-bottom: 1px solid var(--line); }
 h1, h2 { margin: 0; font-weight: 500; }
-h1 { font-size: clamp(1.25rem, 1.7vw, 1.72rem); }
+h1 { font-size: clamp(1.12rem, 1.55vw, 1.52rem); }
 h2 { font-size: clamp(1.4rem, 2vw, 1.9rem); line-height: 1.1; }
 .header-actions { display: flex; align-items: center; gap: 14px; }
 .result-count { margin: 0; color: var(--muted); white-space: nowrap; font-family: Arial, Helvetica, sans-serif; font-size: .82rem; }
-.reset-button { padding: 6px 9px; border: 1px solid var(--line); border-radius: 4px; background: transparent; color: var(--ink); cursor: pointer; font: .76rem Arial, Helvetica, sans-serif; }
+.reset-button { padding: 5px 8px; border: 1px solid var(--line); border-radius: 4px; background: transparent; color: var(--ink); cursor: pointer; font: .74rem Arial, Helvetica, sans-serif; }
 .reset-button:hover { background: var(--paper-deep); }
 .filters { padding: 14px 22px 12px; display: grid; grid-template-columns: repeat(6, minmax(135px, 1fr)); gap: 18px; align-items: end; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.28); }
 .filter-group { min-width: 0; display: flex; flex-direction: column; gap: 7px; font: .78rem Arial, Helvetica, sans-serif; }
-.filter-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
-.filter-heading label { color: var(--ink); font-weight: 600; }
-.filter-heading strong { color: var(--accent); font-size: .82rem; }
+.filter-heading { position: relative; min-height: 1.05rem; text-align: center; }
+.filter-heading label { display: block; width: 100%; padding: 0 28px; color: var(--ink); font-weight: 600; text-align: center; }
+.filter-heading strong { position: absolute; right: 0; top: 0; color: var(--accent); font-size: .82rem; font-weight: 600; }
 input[type="range"] { width: 100%; margin: 0; accent-color: var(--accent); }
 .range-ends { display: flex; justify-content: space-between; gap: 12px; color: var(--muted); font-size: .69rem; line-height: 1.15; }
 .range-ends span:last-child { text-align: right; }
@@ -28,14 +28,15 @@ input[type="range"] { width: 100%; margin: 0; accent-color: var(--accent); }
 .empty-state { max-width: 620px; }
 .empty-state h2 { margin-bottom: 18px; }
 .empty-state p, .place-description { font-size: 1.05rem; line-height: 1.65; }
-.place-header { margin-bottom: 26px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
-.place-description { max-width: 680px; margin-bottom: 30px; }
-.scores { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 13px 24px; max-width: 680px; }
+.place-header { margin-bottom: 24px; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+.scores { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 13px 24px; max-width: 680px; margin-bottom: 30px; }
 .score { display: grid; grid-template-columns: 155px 1fr 32px; gap: 10px; align-items: center; font: .82rem Arial, Helvetica, sans-serif; }
 .score-bar { height: 6px; overflow: hidden; border-radius: 999px; background: var(--paper-deep); }
 .score-bar > span { display: block; height: 100%; background: var(--accent); }
 .score-value { color: var(--muted); text-align: right; }
-.custom-marker { width: 20px; height: 20px; border: 2px solid rgba(255,255,255,.95); border-radius: 50%; box-shadow: 0 1px 6px rgba(0,0,0,.42); }
+.place-description { max-width: 680px; margin-bottom: 30px; }
+.place-description p:first-child { margin-top: 0; }
+.custom-marker { width: 20px; height: 20px; border: 2px solid rgba(255,255,255,.96); border-radius: 50%; box-shadow: 0 1px 6px rgba(0,0,0,.42); }
 .leaflet-container { font-family: Arial, Helvetica, sans-serif; }
 .leaflet-control-attribution { font-size: 10px; }
 footer { padding: 8px 18px; color: var(--muted); border-top: 1px solid var(--line); text-align: center; font: .72rem Arial, Helvetica, sans-serif; }
