@@ -1,18 +1,22 @@
 * { box-sizing: border-box; }
 :root {
   --paper: #f5f1e8; --paper-deep: #e8e1d3; --ink: #26251f; --muted: #6f6a60;
-  --line: #cfc6b6; --accent: #334b3f;
+  --line: #cfc6b6; --accent: #334b3f; --brick: #9e493f;
 }
 html, body { margin: 0; min-height: 100%; color: var(--ink); background: var(--paper); font-family: Georgia, "Times New Roman", serif; }
 body { min-height: 100vh; display: flex; flex-direction: column; }
-.site-header { min-height: 54px; padding: 8px 18px; display: flex; justify-content: space-between; align-items: center; gap: 18px; border-bottom: 1px solid var(--line); }
+.site-header { min-height: 54px; padding: 8px 18px; display: flex; justify-content: space-between; align-items: center; gap: 16px; border-bottom: 1px solid var(--line); }
+.site-header h1 { flex: 1 1 0; min-width: 0; }
 h1, h2 { margin: 0; font-weight: 500; }
 h1 { font-size: clamp(1.12rem, 1.55vw, 1.52rem); }
 h2 { font-size: clamp(1.4rem, 2vw, 1.9rem); line-height: 1.1; }
-.header-actions { display: flex; align-items: center; gap: 12px; }
+.page-nav { display: flex; flex: 0 0 auto; align-items: center; gap: 6px; }
+.nav-button, .reset-button { padding: 4px 8px; border: 1px solid var(--line); border-radius: 4px; background: transparent; color: var(--ink); cursor: pointer; font: .74rem Arial, Helvetica, sans-serif; text-decoration: none; white-space: nowrap; }
+.nav-button:hover, .reset-button:hover { background: var(--paper-deep); }
+.nav-button.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.nav-button.prospective-active { background: var(--brick); border-color: var(--brick); }
+.header-actions { display: flex; flex: 1 1 0; justify-content: flex-end; align-items: center; gap: 12px; }
 .result-count { margin: 0; color: var(--muted); white-space: nowrap; font-family: Arial, Helvetica, sans-serif; font-size: .82rem; }
-.reset-button { padding: 4px 8px; border: 1px solid var(--line); border-radius: 4px; background: transparent; color: var(--ink); cursor: pointer; font: .74rem Arial, Helvetica, sans-serif; }
-.reset-button:hover { background: var(--paper-deep); }
 .filters { padding: 9px 18px 8px; display: grid; grid-template-columns: repeat(6, minmax(135px, 1fr)); gap: 14px; align-items: end; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.28); }
 .filter-group { min-width: 0; display: flex; flex-direction: column; gap: 5px; font: .78rem Arial, Helvetica, sans-serif; }
 .filter-heading { position: relative; min-height: 1.05rem; text-align: center; }
@@ -36,14 +40,22 @@ input[type="range"] { width: 100%; margin: 0; accent-color: var(--accent); }
 .score-value { color: var(--muted); text-align: right; }
 .place-description { max-width: 680px; margin-bottom: 30px; }
 .place-description p:first-child { margin-top: 0; }
-.custom-marker { width: 20px; height: 20px; border: 2px solid rgba(255,255,255,.96); border-radius: 50%; box-shadow: 0 1px 6px rgba(0,0,0,.42); }
+.custom-marker, .prospective-marker { width: 20px; height: 20px; border: 2px solid rgba(255,255,255,.96); border-radius: 50%; box-shadow: 0 1px 6px rgba(0,0,0,.42); }
+.prospective-marker { background: var(--brick); }
 .leaflet-container { font-family: Arial, Helvetica, sans-serif; }
 .leaflet-control-attribution { font-size: 10px; }
 footer { padding: 8px 18px; color: var(--muted); border-top: 1px solid var(--line); text-align: center; font: .72rem Arial, Helvetica, sans-serif; }
-@media (max-width: 1180px) { .filters { grid-template-columns: repeat(3, minmax(150px,1fr)); } }
+@media (max-width: 1180px) {
+  .site-header { flex-wrap: wrap; }
+  .site-header h1 { flex-basis: calc(100% - 250px); }
+  .page-nav { order: 3; width: 100%; justify-content: center; padding-bottom: 2px; }
+  .filters { grid-template-columns: repeat(3, minmax(150px,1fr)); }
+}
 @media (max-width: 760px) {
   .site-header { align-items: flex-start; }
-  .header-actions { flex-direction: column; align-items: flex-end; gap: 6px; }
+  .site-header h1 { flex: 1 1 100%; }
+  .header-actions { flex: 0 0 auto; margin-left: auto; }
+  .page-nav { order: 2; width: auto; margin-right: auto; }
   .filters { grid-template-columns: 1fr; gap: 12px; }
   .filter-heading label { white-space: normal; }
   .split-layout { grid-template-columns: 1fr; }
