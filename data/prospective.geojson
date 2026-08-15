@@ -55,6 +55,42 @@
         "commentaire": "Un méandre de l’Ourse s’éloigne de la route pendant environ 500m."
       },
       "geometry": { "type": "Point", "coordinates": [0.578481, 42.98327] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "vers-la-source-du-job",
+        "nom": "Vers la source du Job",
+        "commentaire": "Au sud de la scierie au pied du col des Ares, le Job part dans un thalweg sauvage et raide. Bonne exploration en vue !"
+      },
+      "geometry": { "type": "Point", "coordinates": [0.740124, 42.984124] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "job-entre-la-moulette-et-le-confluent-du-ruisseau-darbon",
+        "nom": "Le Job entre la Moulette et le confluent du ruisseau d’Arbon",
+        "commentaire": "Portion plutôt plane et sans route à proximité du Job."
+      },
+      "geometry": { "type": "Point", "coordinates": [0.741787, 42.988746] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cascade-de-la-bouche",
+        "nom": "Cascade de la Bouche",
+        "commentaire": "Lieu assez connu de bord de rivière et de pique-nique près d’Izaut. La fois où j’y étais allé, c’était assez cassocialisé. Peut-être pas de chance, à retester. La cascade est cependant artificielle."
+      },
+      "geometry": { "type": "Point", "coordinates": [0.7533036595812538, 43.00328052248098] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pont-de-carrasclet",
+        "nom": "Pont de Carrasclet",
+        "commentaire": "Le même ruisseau que celui de la passerelle des Illères, plus en amont. Le relief s’élève mais reste raisonnable. Un chemin part de la route de Labach. Depuis Labach lui-même on peut aussi descendre à un point plus haut de la rivière, et remonter jusqu’au confluent entre deux ruisseaux."
+      },
+      "geometry": { "type": "Point", "coordinates": [0.7929106566810201, 42.864176307225556] }
     }
   ]
 }
