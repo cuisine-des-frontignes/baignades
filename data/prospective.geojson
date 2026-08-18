@@ -91,6 +91,33 @@
         "commentaire": "Le même ruisseau que celui de la passerelle des Illères, plus en amont. Le relief s’élève mais reste raisonnable. Un chemin part de la route de Labach. Depuis Labach lui-même on peut aussi descendre à un point plus haut de la rivière, et remonter jusqu’au confluent entre deux ruisseaux."
       },
       "geometry": { "type": "Point", "coordinates": [0.7929106566810201, 42.864176307225556] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "garonne-hypothese-1",
+        "nom": "Lieu de baignade de Garonne - hypothèse 1",
+        "commentaire": "Hypothèse 1 pour le lieu de bord de Garonne dont m’a parlé Lucas. J’y suis déjà allé avec les enfants, mais je me suis peut-être arrêté trop tôt : continuer pour voir où ça mène ?"
+      },
+      "geometry": { "type": "Point", "coordinates": [0.5630768509200239, 43.04516198271651] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "garonne-hypothese-2",
+        "nom": "Lieu de baignade de Garonne - hypothèse 2",
+        "commentaire": "Hypothèse 1 pour le lieu de bord de Garonne dont m’a parlé Lucas. Apparemment on peut s’y garer en voiture. C’est plus probablement cet endroit."
+      },
+      "geometry": { "type": "Point", "coordinates": [0.5606016723428744, 43.055482037754906] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cascade-de-la-bouche-la-vraie",
+        "nom": "Cascade de la Bouche - la vraie ?",
+        "commentaire": "Le lieu indiqué comme tel sur Maps est mal placé, peut-être, ou en mêle deux qui se ressemblent par certains aspects. Il faut prendre la route qui mène au château puis la quitter et suivre un pré. Lucas connaît, redemander au besoin. Le point gps a été placé en gros."
+      },
+      "geometry": { "type": "Point", "coordinates": [0.7478141271963578, 43.021516945307425] }
     }
   ]
 }
