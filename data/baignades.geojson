@@ -131,6 +131,27 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "chemin-du-paradis",
+        "nom": "Chemin du Paradis",
+        "beaute": 2,
+        "fraicheur": 3,
+        "tranquillite": 3,
+        "baignabilite": 1,
+        "facilite_acces": 3,
+        "compatibilite_enfants": 4,
+        "commentaire": "Petit chemin agréable et facile qui part du bout de Lez. Très peu fréquenté. C'est bien frais et assez joli, on croise plusieurs petites cascades. Le ruisseau n'est pas évident d'accès et il n'y a pas de vraies vasques baignables. En 10mn de marche, on arrive, juste après l'ancien moulin rénové, à un champ un peu ensoleillé, où le bord de rivière est un peu accessible.\n\nC'est un bon endroit de petite balade fraîche et possiblement de pique-nique, pas un vrai spot de baignade."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.704151,
+          42.910058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "confluent-bouigane-lez-audressein",
         "nom": "Confluent Bouigane-Lez à Audressein",
         "beaute": 2,
@@ -356,6 +377,27 @@
         "coordinates": [
           0.741198,
           43.033508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pont-de-carrasclet",
+        "nom": "Pont de Carrasclet",
+        "beaute": 3,
+        "fraicheur": 4,
+        "tranquillite": 4,
+        "baignabilite": 3,
+        "facilite_acces": 2,
+        "compatibilite_enfants": 3,
+        "commentaire": "Sur la route de Melles à Labach, il faut se garer au niveau du numéro 1110 (plusieurs places), et descendre par le chemin qui longe la maison. C'est pentu, mais assez court et bien tracé.\n\nOn arrive au pont du Carrasclet, joli pont de pierre assez haut au-dessus de la rivière. Juste en-dessous, on peut vraiment se baigner car la rivière se resserre entre les rochers. Plus en amont, il y a des bords de rivière assez plats, où l'on peut aisément aller dans l'eau. Un peu d'herbe ici ou là sous les arbres, mais pas très plate ou grasse. Les alentours sont beaux, sans doute rarement fréquentés. Plus un lieu pour s'amuser dans la rivière et les environs que pour du farniente."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7929106566810201,
+          42.864176307225556
         ]
       }
     },
