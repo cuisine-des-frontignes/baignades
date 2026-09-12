@@ -9,7 +9,13 @@
         "nom": "Bord de Pique près de Lège",
         "commentaire": "Près de Lège, deux grottes indiquées, Pique un peu éloignée de la route."
       },
-      "geometry": { "type": "Point", "coordinates": [0.611882, 42.881183] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.611882,
+          42.881183
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -18,16 +24,13 @@
         "nom": "Canyon d’Arlos",
         "commentaire": "Depuis Arlos, un sentier remonte un torrent raide qui forme un petit canyon, si je ne confonds pas."
       },
-      "geometry": { "type": "Point", "coordinates": [0.710081, 42.881989] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "chemin-du-paradis",
-        "nom": "Chemin du Paradis",
-        "commentaire": "Lieu agréable près de Lez, joli chemin. Je ne me rappelle plus vraiment comment est le ruisseau."
-      },
-      "geometry": { "type": "Point", "coordinates": [0.704151, 42.910058] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.710081,
+          42.881989
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -36,7 +39,13 @@
         "nom": "Ourse de Ferrère",
         "commentaire": "Un peu avant le village, il y a une portion où le ruisseau s’éloigne de la route."
       },
-      "geometry": { "type": "Point", "coordinates": [0.545037, 42.954747] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.545037,
+          42.954747
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -45,7 +54,13 @@
         "nom": "Maison des sources et environs",
         "commentaire": "Accès à la rivière à la Maison des sources, mais il y a des horaires d’ouverture ; apparemment la rivière est libre d’accès. Le tronçon d’Ourse depuis le village de Mauléon semble prometteur."
       },
-      "geometry": { "type": "Point", "coordinates": [0.571551, 42.964785] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.571551,
+          42.964785
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -54,7 +69,13 @@
         "nom": "Portion d’Ourse près de Bramevaque",
         "commentaire": "Un méandre de l’Ourse s’éloigne de la route pendant environ 500m."
       },
-      "geometry": { "type": "Point", "coordinates": [0.578481, 42.98327] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.578481,
+          42.98327
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -63,7 +84,13 @@
         "nom": "Vers la source du Job",
         "commentaire": "Au sud de la scierie au pied du col des Ares, le Job part dans un thalweg sauvage et raide. Bonne exploration en vue !"
       },
-      "geometry": { "type": "Point", "coordinates": [0.740124, 42.984124] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.740124,
+          42.984124
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -72,7 +99,13 @@
         "nom": "Le Job entre la Moulette et le confluent du ruisseau d’Arbon",
         "commentaire": "Portion plutôt plane et sans route à proximité du Job."
       },
-      "geometry": { "type": "Point", "coordinates": [0.741787, 42.988746] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.741787,
+          42.988746
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -81,16 +114,13 @@
         "nom": "Cascade de la Bouche",
         "commentaire": "Lieu assez connu de bord de rivière et de pique-nique près d’Izaut. La fois où j’y étais allé, c’était assez cassocialisé. Peut-être pas de chance, à retester. La cascade est cependant artificielle."
       },
-      "geometry": { "type": "Point", "coordinates": [0.7533036595812538, 43.00328052248098] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "pont-de-carrasclet",
-        "nom": "Pont de Carrasclet",
-        "commentaire": "Le même ruisseau que celui de la passerelle des Illères, plus en amont. Le relief s’élève mais reste raisonnable. Un chemin part de la route de Labach. Depuis Labach lui-même on peut aussi descendre à un point plus haut de la rivière, et remonter jusqu’au confluent entre deux ruisseaux."
-      },
-      "geometry": { "type": "Point", "coordinates": [0.7929106566810201, 42.864176307225556] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7533036595812538,
+          43.00328052248098
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -99,7 +129,13 @@
         "nom": "Lieu de baignade de Garonne - hypothèse 1",
         "commentaire": "Hypothèse 1 pour le lieu de bord de Garonne dont m’a parlé Lucas. J’y suis déjà allé avec les enfants, mais je me suis peut-être arrêté trop tôt : continuer pour voir où ça mène ?"
       },
-      "geometry": { "type": "Point", "coordinates": [0.5630768509200239, 43.04516198271651] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5630768509200239,
+          43.04516198271651
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -108,7 +144,13 @@
         "nom": "Lieu de baignade de Garonne - hypothèse 2",
         "commentaire": "Hypothèse 1 pour le lieu de bord de Garonne dont m’a parlé Lucas. Apparemment on peut s’y garer en voiture. C’est plus probablement cet endroit."
       },
-      "geometry": { "type": "Point", "coordinates": [0.5606016723428744, 43.055482037754906] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5606016723428744,
+          43.055482037754906
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -117,7 +159,13 @@
         "nom": "Cascade de la Bouche - la vraie ?",
         "commentaire": "Le lieu indiqué comme tel sur Maps est mal placé, peut-être, ou en mêle deux qui se ressemblent par certains aspects. Il faut prendre la route qui mène au château puis la quitter et suivre un pré. Lucas connaît, redemander au besoin. Le point gps a été placé en gros."
       },
-      "geometry": { "type": "Point", "coordinates": [0.7478141271963578, 43.021516945307425] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7478141271963578,
+          43.021516945307425
+        ]
+      }
     }
   ]
 }
